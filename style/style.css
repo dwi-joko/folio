@@ -1,0 +1,97 @@
+@font-face {
+  font-family: "SF-Pro-Display-Regular";
+  src: url(../font/SF-Pro-Display-Regular.ttf);
+}
+
+@font-face {
+  font-family: "SF-Pro-Display-Bold";
+  src: url(../font/SF-Pro-Display-Bold.ttf);
+}
+
+html,
+body {
+  font-family: "SF-Pro-Display-Regular", sans-serif;
+  font-size: 100%;
+  margin: 0;
+  padding: 0;
+  scroll-behavior: smooth;
+  color: #606060;
+  line-height: 32px;
+}
+
+h1 {
+  font-size: 4rem;
+  font-family: "SF-Pro-Display-Bold", sans-serif;
+}
+h2 {
+  font-size: 2rem;
+}
+h3 {
+  font-size: 1.5rem;
+}
+p {
+  font-size: 1.125rem;
+}
+a {
+  text-decoration: none;
+}
+.bigger-text {
+  font-size: 6.875rem;
+}
+.heavy-text {
+  font-size: 5.25rem;
+}
+
+.dark-text {
+  color: #232340;
+}
+
+img {
+  width: 100%;
+}
+
+/* == Default Button == */
+.btn-default {
+  background: #5468e7;
+  color: #fff;
+  padding: 1.3rem 2.25rem;
+  border-radius: 0.5rem;
+  font-size: 1.125rem;
+  font-family: "SF-Pro-Display-Bold", sans-serif;
+}
+
+section {
+  padding: 4rem 0;
+}
+
+/* == Hero Image == */
+
+.heroimage {
+  background-image: url(../assets/bg-line.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.heroimage .container {
+  position: relative;
+}
+
+/* == Scroll Down == */
+.scroll-down {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+}
+.scroll-down .icon {
+  width: 48px;
+  height: 48px;
+  background: #c897e4;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 100%;
+}
+
+.scroll-down .icon img {
+  width: unset;
+}
