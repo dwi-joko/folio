@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.css" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.1.0-4/css/all.css" />
     <link rel="stylesheet" href="style/style.css" />
     <link rel="stylesheet" href="slick/slick.css" />
@@ -12,21 +12,28 @@
   </head>
   <body>
     <header>
-      <nav class="navbar navbar-expand-lg bg-light">
+      <nav class="navbar navbar-expand-lg">
         <div class="container">
-          <a class="navbar-brand" href="#">Navbar</a>
+          <a class="navbar-brand" href="#"><img src="assets/light-mode.png" alt="logo" /></a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav me-auto mb-2 mb-lg-0">
               <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#">Home</a>
+                <a class="nav-link font-sb active" aria-current="page" href="#">About</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Link</a>
+                <a class="nav-link font-sb" href="#">Work</a>
               </li>
-              <li class="nav-item dropdown">
+              <li class="nav-item">
+                <a class="nav-link font-sb" href="#">Services</a>
+              </li>
+
+              <li class="nav-item">
+                <a class="nav-link font-sb" href="#">Jobs</a>
+              </li>
+              <!-- <li class="nav-item dropdown">
                 <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false"> Dropdown </a>
                 <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
                   <li><a class="dropdown-item" href="#">Action</a></li>
@@ -34,15 +41,12 @@
                   <li><hr class="dropdown-divider" /></li>
                   <li><a class="dropdown-item" href="#">Something else here</a></li>
                 </ul>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link disabled">Disabled</a>
-              </li>
+              </li> -->
             </ul>
-            <form class="d-flex" role="search">
-              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search" />
-              <button class="btn btn-outline-success" type="submit">Search</button>
-            </form>
+
+            <div class="dark-btn">
+              <a href="#!" class="btn-default btn-dark">Contact Us</a>
+            </div>
           </div>
         </div>
       </nav>
@@ -64,7 +68,7 @@
               </div>
             </div>
 
-            <a href="#!" class="scroll-down d-flex align-content-center">
+            <a href="#!" class="scroll-down">
               <div class="icon">
                 <img src="assets/arrow-s.png" alt="arrow down" />
               </div>
@@ -73,12 +77,361 @@
           </div>
         </div>
       </section>
+      <section class="dark-section">
+        <div class="bg-img">
+          <img src="assets/bg-shape.png" alt="" />
+        </div>
+        <div class="container">
+          <div class="row">
+            <div class="title-wrapper">
+              <div class="small-logo">
+                <img src="assets/small-logo.png" alt="" />
+              </div>
+              <div class="title-text">
+                <div class="d-flex align-item-center">
+                  <p class="numbers">01</p>
+                  <p class="sub-title text-white font-sb">who we are</p>
+                </div>
+                <h1 class="text-white">We Make Designs that Lead and Inpire.</h1>
+              </div>
+            </div>
+            <div class="tab-wrapper">
+              <ul class="nav nav-pills" id="pills-tab" role="tablist">
+                <li class="nav-item" role="presentation">
+                  <button class="nav-link active font-sb" id="pills-home-tab" data-bs-toggle="pill" data-bs-target="#pills-home" type="button" role="tab" aria-controls="pills-home" aria-selected="true">2018</button>
+                </li>
+                <li class="nav-item" role="presentation">
+                  <button class="nav-link font-sb" id="pills-profile-tab" data-bs-toggle="pill" data-bs-target="#pills-profile" type="button" role="tab" aria-controls="pills-profile" aria-selected="false">2019</button>
+                </li>
+                <li class="nav-item" role="presentation">
+                  <button class="nav-link font-sb" id="pills-contact-tab" data-bs-toggle="pill" data-bs-target="#pills-contact" type="button" role="tab" aria-controls="pills-contact" aria-selected="false">2020</button>
+                </li>
+              </ul>
+              <div class="tab-content" id="pills-tabContent">
+                <div class="tab-pane fade show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab" tabindex="0">
+                  <img src="assets/desktop.png" alt="" />
+                </div>
+                <div class="tab-pane fade" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab" tabindex="0"><img src="assets/desktop.png" alt="" /></div>
+                <div class="tab-pane fade" id="pills-contact" role="tabpanel" aria-labelledby="pills-contact-tab" tabindex="0"><img src="assets/desktop.png" alt="" /></div>
+              </div>
+            </div>
+            <div class="desc-section">
+              <div class="card-default">
+                <div class="card-title">
+                  <h2 class="text-white">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h2>
+                  <p class="text-white"></p>
+                  <p class="summary">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam porta sodales leo vitae vestibulum. Nullam vel posuere nisi. Donec in lobortis arcu.</p>
+                  <a href="#!" class="btn-default">Contact Us</a>
+                </div>
+              </div>
+              <div class="big-numbers">
+                <div class="text">
+                  <h1 class="text-white">28</h1>
+                  <h3 class="text-white">Lorem Ipsum</h3>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="recent-work">
+        <div class="bg-line bg-img-bottom">
+          <img src="assets/bottom-line.png" alt="bg-bottom" />
+        </div>
+        <div class="bg-line bg-img-center">
+          <img src="assets/center-line.png" alt="bg-center" />
+        </div>
+        <div class="container">
+          <div class="row">
+            <div class="title-wrapper">
+              <div class="small-logo">
+                <img src="assets/small-logo.png" alt="small-logo" />
+              </div>
+              <div class="title-text">
+                <div class="d-flex align-item-center">
+                  <p class="numbers">02</p>
+                  <p class="sub-title font-sb">you may also like</p>
+                </div>
+                <h1>Recent Works</h1>
+                <p class="desc">Agency is a full-service agency, busy designing and building beautiful digital products, brands, and experiences.</p>
+              </div>
+            </div>
+
+            <div class="product">
+              <div class="card">
+                <label for="feature-product">feature product</label>
+                <div class="image">
+                  <img src="assets/tablet-1.png" alt="tab-1" />
+                  <div class="icon">
+                    <img src="assets/arrow-down.png" alt="" />
+                  </div>
+                </div>
+                <h2 class="title">Bento 3D Illustration</h2>
+                <p>Agency is a full-service agency, busy designing and building beautiful digital products, brands, and experiences.</p>
+              </div>
+              <div class="card">
+                <div class="image">
+                  <img src="assets/tablet-2.png" alt="tab-1" />
+                  <div class="icon">
+                    <img src="assets/arrow-down.png" alt="" />
+                  </div>
+                </div>
+                <h2 class="title">Bento Vol. 3</h2>
+                <p>Agency is a full-service agency, busy designing and building beautiful digital products, brands, and experiences.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="dark-section">
+        <div class="bg-img">
+          <img src="assets/bg-shape.png" alt="" />
+        </div>
+        <div class="container">
+          <div class="row">
+            <div class="title-wrapper">
+              <div class="small-logo">
+                <img src="assets/small-logo.png" alt="" />
+              </div>
+              <div class="title-text">
+                <div class="d-flex align-item-center">
+                  <p class="numbers">03</p>
+                  <p class="sub-title text-white font-sb">folio agency</p>
+                </div>
+                <h1 class="text-white">By the Numbers.</h1>
+              </div>
+            </div>
+            <div class="services">
+              <ul>
+                <li>
+                  <h1 class="numbers text-white">20</h1>
+                  <h3 class="title text-white">Pre-build Scenes 🔥</h3>
+                  <p>Bento is the first fully editable, 3D visual design system with global auto-updatable style guides built right in Figma.</p>
+                  <a href="#!" class="btn-icon">
+                    <div class="icon">
+                      <img src="assets/arrow-s.png" alt="" />
+                    </div>
+                    <p class="text-white">Download</p>
+                  </a>
+                </li>
+                <li>
+                  <h1 class="numbers text-white">40</h1>
+                  <h3 class="title text-white">Scene Objects 🤩</h3>
+                  <p>Bento is the first fully editable, 3D visual design system with global auto-updatable style guides built right in Figma.</p>
+                  <a href="#!" class="btn-icon">
+                    <div class="icon">
+                      <img src="assets/arrow-s.png" alt="" />
+                    </div>
+                    <p class="text-white">Download</p>
+                  </a>
+                </li>
+              </ul>
+            </div>
+
+            <div class="slider-wrapper">
+              <div class="slide-service">
+                <div class="item-slider">
+                  <img src="assets/slider.png" alt="imgslide" />
+                </div>
+                <div class="item-slider">
+                  <img src="assets/slider.png" alt="imgslide" />
+                </div>
+                <div class="item-slider">
+                  <img src="assets/slider.png" alt="imgslide" />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="jobs">
+        <div class="bg-img bg-center">
+          <img src="assets/line-center.png" alt="" />
+        </div>
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-6 col-sm-12">
+              <div class="title-wrapper">
+                <div class="small-logo">
+                  <img src="assets/small-logo.png" alt="small-logo" />
+                </div>
+                <div class="title-text">
+                  <div class="d-flex align-item-center">
+                    <p class="numbers">04</p>
+                    <p class="sub-title font-sb">we are hiring</p>
+                  </div>
+                  <h1>Jobs</h1>
+                  <p class="desc">Agency is a full-service agency, busy designing and building beautiful digital products, brands, and experiences.</p>
+                  <a href="#!" class="btn-icon">
+                    <div class="icon">
+                      <img src="assets/arrow-s.png" alt="arrow" />
+                    </div>
+                    <p class="font-sb">available jobs</p>
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-6 col-sm-12">
+              <div class="card-list">
+                <ul>
+                  <li>
+                    <div class="card">
+                      <div class="text">
+                        <h2 class="title">Graphic Designer <span class="amount">6</span></h2>
+                        <p class="ex">2 years experience</p>
+                        <div class="icon">
+                          <img src="assets/arrow-down.png" alt="" />
+                          <img src="assets/arrow-right.png" alt="arrow-right" />
+                        </div>
+                      </div>
+                      <div class="images">
+                        <img src="assets/tablet-1.png" alt="" />
+                      </div>
+                    </div>
+                  </li>
+                  <li>
+                    <div class="card">
+                      <div class="text">
+                        <h2 class="title">Visual Designer</h2>
+                        <p class="ex">2 years experience</p>
+                        <div class="icon">
+                          <img src="assets/arrow-down.png" alt="arrow-down" />
+                          <img src="assets/arrow-right.png" alt="arrow-right" />
+                        </div>
+                      </div>
+                      <div class="images">
+                        <img src="assets/tablet-1.png" alt="" />
+                      </div>
+                    </div>
+                  </li>
+                  <li>
+                    <div class="card">
+                      <div class="text">
+                        <h2 class="title">Art Director</h2>
+                        <p class="ex">2 years experience</p>
+                        <div class="icon">
+                          <img src="assets/arrow-down.png" alt="arrow-down" />
+                          <img src="assets/arrow-right.png" alt="arrow-right" />
+                        </div>
+                      </div>
+                      <div class="images">
+                        <img src="assets/tablet-1.png" alt="" />
+                      </div>
+                    </div>
+                  </li>
+
+                  <li>
+                    <div class="card">
+                      <div class="text">
+                        <h2 class="title">Web Designer <span class="amount">6</span></h2>
+                        <p class="ex">2 years experience</p>
+                        <div class="icon">
+                          <img src="assets/arrow-down.png" alt="arrow-down" />
+                          <img src="assets/arrow-right.png" alt="arrow-right" />
+                        </div>
+                      </div>
+                      <div class="images">
+                        <img src="assets/tablet-1.png" alt="" />
+                      </div>
+                    </div>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="contact">
+        <div class="container">
+          <div class="row">
+            <div class="col-sm-12">
+              <div class="bg-blue">
+                <div class="bg-img blue-line">
+                  <img src="assets/blue-line.png" alt="" />
+                </div>
+                <div class="top-contact">
+                  <div class="logo-center">
+                    <img src="assets/pink-logo.png" alt=" pink logo" />
+                  </div>
+                  <p class="font-sb text-white">👋 Say hello</p>
+                  <h2 class="text-white">A design team building a curated marketplace for UI designers.</h2>
+                </div>
+                <div class="bottom-contact">
+                  <ul>
+                    <li>
+                      <h1 class="text-white">Let’s talk about your next project</h1>
+                    </li>
+                    <li>
+                      <div class="icon-top">
+                        <img src="assets/bubble.png" alt="bubble" />
+                      </div>
+                      <div class="text">
+                        <h2 class="text-white">Invest in your designs today!</h2>
+                        <div class="icon">
+                          <img src="assets/arrow-right.png" alt="arrow" />
+                        </div>
+                      </div>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
     </main>
-    <h1>Hello, world!</h1>
+    <footer>
+      <div class="container">
+        <div class="row">
+          <div class="footer-top">
+            <div class="logo">
+              <img src="assets/light-mode.png" alt="" />
+            </div>
+            <p>Agency is a full-service agency, busy designing and building beautiful digital products, brands, and experiences.</p>
+            <nav class="nav-footer">
+              <ul>
+                <li>
+                  <a href="#!" class="font-sb active">About</a>
+                </li>
+                <li>
+                  <a href="#!" class="font-sb">Works</a>
+                </li>
+                <li>
+                  <a href="#!" class="font-sb">Service</a>
+                </li>
+                <li>
+                  <a href="#!" class="font-sb">Jobs</a>
+                </li>
+              </ul>
+            </nav>
+          </div>
+          <div class="footer-bottom">
+            <p class="copyright">© 2020, UI8 LLC.</p>
+            <div class="socials">
+              <p class="font-sb">Follow us</p>
+              <ul>
+                <li>
+                  <a href="#!"><i class="fab fa-facebook-f"></i></a>
+                </li>
+                <li>
+                  <a href="#!"><i class="fab fa-youtube"></i></a>
+                </li>
+                <li>
+                  <a href="#!"><i class="fab fa-instagram"></i></a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
   </body>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
   <script src="js/custom.js"></script>
-  <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.1.0-4/js/all.js"></script>
   <script src="slick/slick.js"></script>
 </html>
