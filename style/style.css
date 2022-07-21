@@ -882,12 +882,36 @@ footer p {
 
 /* === Responsive === */
 
+@media screen and (min-width: 769px) {
+  .navbar-expand-lg .navbar-collapse .navbar-brand,
+  .navbar-expand-lg .navbar-collapse .m-socials {
+    display: none;
+  }
+
+  .bottom-contact .btn-default {
+    display: none;
+  }
+
+  .slider-wrapper.about {
+    display: none;
+  }
+}
+
 @media screen and (max-width: 768px) {
   header {
-    z-index: 9;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    padding: 1rem;
+    z-index: 999;
+  }
+
+  header.header.fixed {
+    background: #fff;
+    transition: all 0.51s;
   }
   header .navbar-brand {
-    position: relative;
+    position: relative !important;
   }
 
   .navbar-collapse {
@@ -920,16 +944,16 @@ footer p {
   .navbar-collapse .close-btn {
     position: absolute;
     right: 3rem;
-    top: 4rem;
+    top: 2.1rem;
   }
 
   header .navbar .navbar-nav .navbar-brand {
     width: 12rem;
-    padding-bottom: 9rem;
+    padding-bottom: 2rem;
   }
 
   header .navbar .navbar-nav {
-    padding: 3rem 2rem;
+    padding: 1.5rem 2rem;
     text-align: left;
   }
 
@@ -1082,7 +1106,7 @@ footer p {
   }
 
   .services {
-    padding: 0;
+    padding: 2rem 0 0;
   }
 
   .services ul li {
@@ -1114,6 +1138,7 @@ footer p {
   }
 
   .jobs {
+    padding-bottom: 0;
     padding-top: 14rem;
   }
 
@@ -1161,5 +1186,81 @@ footer p {
   footer p {
     max-width: 100%;
     padding: 2rem 0;
+  }
+
+  .bottom-contact .btn-default {
+    background: #fff;
+    color: #5468e7;
+    border: 0;
+    width: 100%;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+  }
+
+  .bottom-contact ul li:last-child {
+    display: none;
+  }
+
+  .bottom-contact .btn-default {
+    background: #fff;
+    color: #5468e7;
+    border: 0;
+    width: 100%;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+  }
+
+  .bottom-contact ul li:last-child {
+    display: none;
+  }
+
+  .footer-bottom {
+    flex-direction: column;
+  }
+
+  .footer-bottom .socials p {
+    display: none;
+  }
+
+  .footer-bottom .socials ul li a {
+    width: 3rem;
+    height: 3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #d8d8d8;
+    border-radius: 50%;
+  }
+
+  .footer-bottom .socials ul li a:hover {
+    background: #5468e7;
+    color: #fff;
+    border-color: #5468e7;
+    transition: all 0.5s;
+  }
+
+  .footer-bottom .socials ul li a:hover path {
+    color: #fff;
+  }
+
+  .footer-bottom .socials {
+    padding-top: 1rem;
+  }
+
+  .footer-bottom p {
+    order: 2;
+    padding-top: 1rem;
+  }
+
+  .nav-footer ul li {
+    padding: 0 1.5rem;
+  }
+
+  .tab-wrapper {
+    display: none;
+  }
+
+  .slider-wrapper.about {
+    margin: 0;
   }
 }
