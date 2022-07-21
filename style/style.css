@@ -247,6 +247,10 @@ div#navbarSupportedContent {
   color: #5468e7;
 }
 
+.dark-section .title-wrapper .title-text .numbers {
+  color: #8b8b8b;
+}
+
 .title-wrapper .title-text h1 {
   padding-top: 1.5rem;
   color: #232340;
